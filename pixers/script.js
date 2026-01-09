@@ -31,7 +31,7 @@ APPRECIATION:
 `;
 
   // 🔴 Use your key here
-  const API_KEY = "AIzaSyB8vCBUthjelkGXuAVNouAvFKf5w3LdLuY";
+  const API_KEY = ".";
 
   // ✅ UPDATED URL: Changed 'v1beta' to 'v1' and 'gemini-pro' to 'gemini-1.5-flash'
   const url = `https://generativelanguage.googleapis.com/v1/models/gemini-2.5-flash:generateContent?key=${API_KEY}`;
@@ -70,3 +70,4 @@ APPRECIATION:
     document.getElementById("explanation").innerText = "Error: API call failed.";
   }
 }
+
